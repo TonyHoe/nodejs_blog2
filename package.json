@@ -1,0 +1,34 @@
+{
+  "name": "blog2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "sass src/resources/scss/app.scss src/public/css/app.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyHoe/nodejs_blog2.git"
+  },
+  "keywords": [
+    "blog",
+    "hoa",
+    "blog"
+  ],
+  "author": "hoakt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyHoe/nodejs_blog2/issues"
+  },
+  "homepage": "https://github.com/TonyHoe/nodejs_blog2#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}

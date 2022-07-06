@@ -1,0 +1,7 @@
+@import 'variable';
+@import 'mixin';
+h1 {
+    color: $red-color;
+    font: optional;
+    height: 100px;
+}
