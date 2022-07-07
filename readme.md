@@ -2,16 +2,19 @@
 - request: chứa thông tin ứng dụng phía client YÊU CẦU lên server (tt yêu cầu gửi lên)
 - response: tùy chỉnh, cấu hình việc PHẢN HỒI lại cái gì cho client (tùy chỉnh kết quả trả về)
 
-// Cài nodemon lên dự án (debug & tự load lại server)
+* Cài nodemon lên dự án (debug & tự load lại server)
 npm i nodemon --save-dev
 npm install -g nodemon // cài lên máy
 
-// Cài morgan lên dự án (phần mềm trung gian để log các http request ra, request gửi lên NODE server)
+* Cài morgan lên dự án (phần mềm trung gian để log các http request ra, request gửi lên NODE server)
 npm i morgan --save-dev
 npm install -g morgan // cài lên máy
 
-//cài scss
-node-sass --save-dev
+* Cài express-handlebars
+npm install express-handlebars
+
+* cài scss
+npm i sass --save-dev
 B1: thêm script "watch": "node-sass src/resources/scss/app.scss src/public/css/app.css" (chuyển file scss sang css)
 B2: thêm option --watch vào sau node-sass
 
